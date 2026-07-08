@@ -22,6 +22,7 @@ if(isset($_POST["register"])) {
         $stmt -> execute();
 
     }
+    // Redirect to index.php after registration
     header("Location: index.php");
     exit();
 }
